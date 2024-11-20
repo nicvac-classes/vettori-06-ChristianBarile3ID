@@ -17,7 +17,7 @@ int main() {
         cin >> nomi[i];
         cout << "Da quale nazione proviene?" << endl;
         cin >> nazionali[i];
-        tempi[i] = (rand() % 1300) / 100 + 5;
+        tempi[i] = ((rand() % 1300) / 100) + 5;
         i++;
     }
     i = 0;
