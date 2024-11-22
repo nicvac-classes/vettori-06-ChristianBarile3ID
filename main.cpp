@@ -9,7 +9,7 @@ int main() {
     cout << "Quanti atleti partecipano a questa competizione?" << endl;
     cin >> nAtleti;
     vector<string> nomi(nAtleti);
-    vector<string> nazionali(nAtleti);
+    vector<string> nazionali(nAtleti);     
     vector<float> tempi(nAtleti);
     i = 0;
     while (i<nomi.size()) {
